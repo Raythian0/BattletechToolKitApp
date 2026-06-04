@@ -90,6 +90,7 @@
           Campaign
           <select bind:value={campaignFocus}>
             <option value="general_Operations">General Operations</option>
+            <option value="mercenaries" disabled>Mercenaries</option>
             <option value="hinterlands" disabled>Hinterlands</option>
             <option value="draconisReach" disabled>Draconis Reach</option>
           </select>
