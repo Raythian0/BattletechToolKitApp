@@ -1,0 +1,165 @@
+{
+    "missionTracks":
+    [
+        {
+            "missionType": "",
+            "missionCategory": "",
+            "primaryTrackType": [""],
+            "secondaryTrackType": [""],
+            "trackRange": "",
+            "attk_Def_Mod": 0
+        },
+        {
+            "missionType": "Assassination",
+            "missionCategory": "Black Market Major",
+            "primaryTrackType": ["Confront"],
+            "secondaryTrackType": ["Recon", "Strike"],
+            "trackRange": "",
+            "attk_Def_Mod": 3
+        },
+        {
+            "missionType": "Cadre Duty",
+            "missionCategory": "Static Defense",
+            "primaryTrackType": ["Defend"],
+            "secondaryTrackType": ["Strike","Meeting Engagement"],
+            "trackRange": "",
+            "attk_Def_Mod": -1
+        },
+        {
+            "missionType": "Diversionary Raid",
+            "missionCategory": "Major Raid",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Recon", "Strike"],
+            "trackRange": "",
+            "attk_Def_Mod": 1
+        },
+        {
+            "missionType": "Espionage",
+            "missionCategory": "Black Market Minor",
+            "primaryTrackType": ["Strike", "Recon"],
+            "secondaryTrackType": ["Objective Raid", "Pursuit"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        },
+        {
+            "missionType": "Extraction Raid",
+            "missionCategory": "Minor Raid",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Strike","Assault"],
+            "trackRange": "",
+            "attk_Def_Mod": 1
+        },
+        {
+            "missionType": "Garrison",
+            "missionCategory": "Static Defense",
+            "primaryTrackType": ["Defend"],
+            "secondaryTrackType": ["Meeting Engagement", "Pushback"],
+            "trackRange": "",
+            "attk_Def_Mod": -3
+        },
+        {
+            "missionType": "Guerrilla",
+            "missionCategory": "Major Raid",
+            "primaryTrackType": ["Strike"],
+            "secondaryTrackType": ["Breakthrough", "Recon"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        },
+        {
+            "missionType": "Mole Hunting",
+            "missionCategory": "Black Market Minor",
+            "primaryTrackType": ["Recon"],
+            "secondaryTrackType": ["Strike","Meeting Engagement"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        },
+        {
+            "missionType": "Objective Raid",
+            "missionCategory": "Minor Raid",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Recon","Breakthrough"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        },
+        {
+            "missionType": "Observation Raid",
+            "missionCategory": "Minor Raid",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Recon","Retreat"],
+            "trackRange": "",
+            "attk_Def_Mod": 1
+        },
+        {
+            "missionType": "Pirate Hunting",
+            "missionCategory": "Minor Raid",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Recon","Meeting Engagement"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        },
+        {
+            "missionType": "Planetary Assault",
+            "missionCategory": "Invasion",
+            "primaryTrackType": ["Assault"],
+            "secondaryTrackType": ["Breakthrough","Meeting Engagement","Strike"],
+            "trackRange": "",
+            "attk_Def_Mod": 0
+        },
+        {
+            "missionType": "Recon",
+            "missionCategory": "Minor Raid",
+            "primaryTrackType": ["Recon"],
+            "secondaryTrackType": ["Strike","Retreat"],
+            "trackRange": "",
+            "attk_Def_Mod": 1
+        },
+        {
+            "missionType": "Relief Duty",
+            "missionCategory": "Invasion",
+            "primaryTrackType": ["Defend"],
+            "secondaryTrackType": ["Breakthrough","Pushback"],
+            "trackRange": "",
+            "attk_Def_Mod": -1
+        },
+        {
+            "missionType": "Retainer",
+            "missionCategory": "Static Defense",
+            "primaryTrackType": ["Defend"],
+            "secondaryTrackType": ["Meeting Engagement"],
+            "trackRange": "",
+            "attk_Def_Mod": 0
+        },
+        {
+            "missionType": "Riot Duty",
+            "missionCategory": "Territorial Campaign",
+            "primaryTrackType": ["Pushback"],
+            "secondaryTrackType": ["Pursuit","Strike"],
+            "trackRange": "",
+            "attk_Def_Mod": -2
+        },
+        {
+            "missionType": "Sabotage",
+            "missionCategory": "Black Market Minor",
+            "primaryTrackType": ["Objective Raid"],
+            "secondaryTrackType": ["Strike","Recon"],
+            "trackRange": "",
+            "attk_Def_Mod": 1
+        },
+        {
+            "missionType": "Security Duty",
+            "missionCategory": "Static Defense",
+            "primaryTrackType": ["Defend"],
+            "secondaryTrackType": ["Pursuit", "Flank"],
+            "trackRange": "",
+            "attk_Def_Mod": -2
+        },
+        {
+            "missionType": "Terrorism",
+            "missionCategory": "Black Market Major",
+            "primaryTrackType": ["Strike"],
+            "secondaryTrackType": ["Assault","Breakthrough","Objective Raid"],
+            "trackRange": "",
+            "attk_Def_Mod": 2
+        }
+    ]
+}

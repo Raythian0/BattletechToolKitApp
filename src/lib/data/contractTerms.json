@@ -1,0 +1,430 @@
+{
+  "basePay": [
+    {
+      "id": "base_pay_50",
+      "label": "Base Pay 50% (1)",
+      "description": "Base Pay 50%",
+      "value": 50,
+      "step": [1],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_55",
+      "label": "Base Pay 55% (2)",
+      "description": "Base Pay 55%",
+      "value": 55,
+      "step": [2],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_60",
+      "label": "Base Pay 60% (3)",
+      "description": "Base Pay 60%",
+      "value": 60,
+      "step": [3],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_70",
+      "label": "Base Pay 70% (4)",
+      "description": "Base Pay 70%",
+      "value": 70,
+      "step": [4],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_80",
+      "label": "Base Pay 80% (5)",
+      "description": "Base Pay 80%",
+      "value": 80,
+      "step": [5],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_90",
+      "label": "Base Pay 90% (6)",
+      "description": "Base Pay 90%",
+      "value": 90,
+      "step": [6],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_100",
+      "label": "Base Pay 100% (7)",
+      "description": "Base Pay 100%",
+      "value": 100,
+      "step": [7],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_110",
+      "label": "Base Pay 110% (8)",
+      "description": "Base Pay 110%",
+      "value": 110,
+      "step": [8],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_120",
+      "label": "Base Pay 120% (9)",
+      "description": "Base Pay 120%",
+      "value": 120,
+      "step": [9],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_130",
+      "label": "Base Pay 130% (10)",
+      "description": "Base Pay 130%",
+      "value": 130,
+      "step": [10],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_150",
+      "label": "Base Pay 150% (11)",
+      "description": "Base Pay 150%",
+      "value": 150,
+      "step": [11],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_175",
+      "label": "Base Pay 175% (12)",
+      "description": "Base Pay 175%",
+      "value": 175,
+      "step": [12],
+      "weight": 1
+    },
+    {
+      "id": "base_pay_200",
+      "label": "Base Pay 200% (13)",
+      "description": "Base Pay 200%",
+      "value": 200,
+      "step": [13],
+      "weight": 1
+    }
+  ],
+  "commandRights": [
+    {
+      "id": "integrated",
+      "label": "Integrated (3)",
+      "description": "Integrated",
+      "step": [1,2,3,4,5],
+      "weight": 3
+    },
+    {
+      "id": "house",
+      "label": "House (7)",
+      "description": "House",
+      "step": [6,7],
+      "weight": 4
+    },
+    {
+      "id": "liaison",
+      "label": "Liaison (8)",
+      "description": "Liaison",
+      "step": [8,9,10],
+      "weight": 3
+    },
+    {
+      "id": "independant",
+      "label": "Independant (11)",
+      "description": "Independant",
+      "step": [11,12,13],
+      "weight": 3
+    }
+  ],
+  "salvageRights": [
+    {
+      "id": "salvage_none",
+      "label": "No Salvage (1)",
+      "description": "",
+      "step": [1],
+      "weight": 1
+    },
+    {
+      "id": "salvage_Exchange_2",
+      "label": "Partial Exchange (2)",
+      "description": "",
+      "step": [2],
+      "weight": 1
+    },
+    {
+      "id": "salvage_Exchange_3",
+      "label": "Partial Exchange (3)",
+      "description": "",
+      "step": [3],
+      "weight": 1
+    },
+    {
+      "id": "salvage_10",
+      "label": "Salvage 10% (4)",
+      "description": "",
+      "step": [4],
+      "weight": 1
+    },
+    {
+      "id": "salvage_20",
+      "label": "Salvage 20% (5)",
+      "description": "",
+      "step": [5],
+      "weight": 1
+    },
+    {
+      "id": "salvage_30",
+      "label": "Salvage 30% (6)",
+      "description": "",
+      "step": [6],
+      "weight": 1
+    },
+    {
+      "id": "salvage_40",
+      "label": "Salvage 40% (7)",
+      "description": "",
+      "step": [7],
+      "weight": 1
+    },
+    {
+      "id": "salvage_50",
+      "label": "Salvage 50% (8)",
+      "description": "",
+      "step": [8],
+      "weight": 1
+    },
+    {
+      "id": "salvage_60",
+      "label": "Salvage 60% (9)",
+      "description": "",
+      "step": [9],
+      "weight": 1
+    },
+    {
+      "id": "salvage_70",
+      "label": "Salvage 70% (10)",
+      "description": "",
+      "step": [10],
+      "weight": 1
+    },
+    {
+      "id": "salvage_80",
+      "label": "Salvage 80% (11)",
+      "description": "",
+      "step": [11],
+      "weight": 1
+    },
+    {
+      "id": "salvage_90",
+      "label": "Salvage 90% (12)",
+      "description": "",
+      "step": [12],
+      "weight": 1
+    },
+    {
+      "id": "salvage_100",
+      "label": "Salvage 100% (13)",
+      "description": "",
+      "step": [13],
+      "weight": 1
+    }
+  ],
+  "supportRights": [
+    {
+      "id": "support_none_1",
+      "label": "No Support (1)",
+      "description": "",
+      "step": [1],
+      "weight": 1
+    },
+    {
+      "id": "Straight_20_2",
+      "label": "Straight/20% (2)",
+      "description": "Straight/20%",
+      "step": [2],
+      "weight": 1
+    },
+    {
+      "id": "Straight_40_3",
+      "label": "Straight/40% (3)",
+      "description": "Straight/40%",
+      "step": [3],
+      "weight": 1
+    },
+    {
+      "id": "Straight_60_4",
+      "label": "Straight/60% (4)",
+      "description": "Straight/60%",
+      "step": [4],
+      "weight": 1
+    },
+    {
+      "id": "Straight_80_5",
+      "label": "Straight/80% (5)",
+      "description": "Straight/80%",
+      "step": [5],
+      "weight": 1
+    },
+    {
+      "id": "Straight_100_6",
+      "label": "Straight/100% (6)",
+      "description": "Straight/100%",
+      "step": [6],
+      "weight": 1
+    },
+    {
+      "id": "Battle_10_7",
+      "label": "Battle/10% (7)",
+      "description": "Battle/10%",
+      "step": [7],
+      "weight": 1
+    },
+    {
+      "id": "Battle_20_8",
+      "label": "Battle/20% (8)",
+      "description": "Battle/20%",
+      "step": [8],
+      "weight": 1
+    },
+    {
+      "id": "Battle_30_9",
+      "label": "Battle/30% (9)",
+      "description": "Battle/30%",
+      "step": [9],
+      "weight": 1
+    },
+    {
+      "id": "Battle_40_10",
+      "label": "Battle/40% (10)",
+      "description": "Battle/40%",
+      "step": [10],
+      "weight": 1
+    },
+    {
+      "id": "Battle_50_11",
+      "label": "Battle/50% (11)",
+      "description": "Battle/50%",
+      "step": [11],
+      "weight": 1
+    },
+    {
+      "id": "Battle_75_12",
+      "label": "Battle/75% (12)",
+      "description": "Battle/75%",
+      "step": [12],
+      "weight": 1
+    },
+    {
+      "id": "Battle_100_13",
+      "label": "Battle/100% (13)",
+      "description": "Battle/100%",
+      "step": [13],
+      "weight": 1
+    }
+  ],
+  "transportationRights": [
+    {
+      "id": "transport_none_1",
+      "label": "Transport 0% (1)",
+      "description": "",
+      "value": 0,
+      "step": [1],
+      "weight": 1
+    },
+    {
+      "id": "transport_none_2",
+      "label": "Transport 0% (2)",
+      "description": "",
+      "value": 0,
+      "step": [2],
+      "weight": 1
+    },
+    {
+      "id": "transport_none_3",
+      "label": "Transport 0% (3)",
+      "description": "",
+      "value": 0,
+      "step": [3],
+      "weight": 1
+    },
+    {
+      "id": "transport_none_4",
+      "label": "Transport 0% (4)",
+      "description": "",
+      "value": 0,
+      "step": [4],
+      "weight": 1
+    },
+    {
+      "id": "transport_none_5",
+      "label": "Transport 0% (5)",
+      "description": "",
+      "value": 0,
+      "step": [5],
+      "weight": 1
+    },
+    {
+      "id": "transport_25_6",
+      "label": "Transport 25% (6)",
+      "description": "",
+      "value": 25,
+      "step": [6],
+      "weight": 1
+    },
+    {
+      "id": "transport_50_7",
+      "label": "Transport 50% (7)",
+      "description": "",
+      "value": 50,
+      "step": [7],
+      "weight": 1
+    },
+    {
+      "id": "transport_75_8",
+      "label": "Transport 75% (8)",
+      "description": "",
+      "value": 75,
+      "step": [8],
+      "weight": 1
+    },
+    {
+      "id": "transport_100_9",
+      "label": "Transport 100% (9)",
+      "description": "",
+      "value": 100,
+      "step": [9],
+      "weight": 1
+    },
+    {
+      "id": "transport_100_10",
+      "label": "Transport 100% (10)",
+      "description": "",
+      "value": 100,
+      "step": [10],
+      "weight": 1
+    },
+    {
+      "id": "transport_100_11",
+      "label": "Transport 100% (11)",
+      "description": "",
+      "value": 100,
+      "step": [11],
+      "weight": 1
+    },
+    {
+      "id": "transport_100_12",
+      "label": "Transport 100% (12)",
+      "description": "",
+      "value": 100,
+      "step": [12],
+      "weight": 1
+    },
+    {
+      "id": "transport_100_13",
+      "label": "Transport 100% (13)",
+      "description": "",
+      "value": 100,
+      "step": [13],
+      "weight": 1
+    }
+  ]
+}

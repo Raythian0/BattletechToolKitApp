@@ -1,0 +1,340 @@
+{
+  "employers":[
+        {
+              "id": "inner_sphere_clan",
+              "employerList": ["minor_Power", "major_Power"]
+        },
+        {
+              "id": "independent",
+              "employerList": ["noble", "planetary_Government","mercenary","major_Periphery_State","minor_Periphery_State"]
+        },
+        {
+              "id": "corporation",
+              "employerList": ["corporation"]
+        }
+      ],
+  "inner_sphere_clan":[
+        {
+              "id": "covert",
+              "label": "Covert",
+              "step": [2],
+              "type": "Standard"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [3],
+              "type": "Standard"
+        },
+        {
+              "id": "pirate",
+              "label": "Pirate",
+              "step": [4],
+              "type": "Standard"
+        },
+        {
+              "id": "planetary_Assault",
+              "label": "Planetary Assault",
+              "step": [5],
+              "type": "Standard"
+        },
+        {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [6,7],
+              "type": "Standard"
+        },
+        {
+              "id": "extraction_Raid",
+              "label": "Extraction Raid",
+              "step": [8],
+              "type": "Standard"
+        },
+        {
+              "id": "recon",
+              "label": "Recon",
+              "step": [9],
+              "type": "Standard"
+        },
+        {
+              "id": "garrison",
+              "label": "Garrison",
+              "step": [10],
+              "type": "Standard"
+        },
+        {
+              "id": "cadre_Duty",
+              "label": "Cadre Duty",
+              "step": [11],
+              "type": "Standard"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [12],
+              "type": "Standard"
+        }
+      ],
+      "independent":[
+        {
+              "id": "covert",
+              "label": "Covert",
+              "step": [2],
+              "type": "Independent"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [3],
+              "type": "Independent"
+        },
+        {
+              "id": "planetary_Assault",
+              "label": "Planetary Assault",
+              "step": [4],
+              "type": "Independent"
+        },
+        {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [5],
+              "type": "Independent"
+        },
+        {
+              "id": "extraction_Raid",
+              "label": "Extraction Raid",
+              "step": [6],
+              "type": "Independent"
+        },
+        {
+              "id": "pirate",
+              "label": "Pirate",
+              "step": [7],
+              "type": "Independent"
+        },
+        {
+              "id": "security_Duty",
+              "label": "Security Duty",
+              "step": [8],
+              "type": "Independent"
+        },
+        {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [9],
+              "type": "Independent"
+        },
+        {
+              "id": "garrison",
+              "label": "Garrison",
+              "step": [10],
+              "type": "Independent"
+        },
+        {
+              "id": "cadre_Duty",
+              "label": "Cadre Duty",
+              "step": [11],
+              "type": "Independent"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [12],
+              "type": "Independent"
+        }
+      ],
+      "corporation":[
+        {
+              "id": "covert",
+              "label": "Covert",
+              "step": [2,3],
+              "type": "Corporation"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [4],
+              "type": "Corporation"
+        },
+        {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [5],
+              "type": "Corporation"
+        },
+        {
+              "id": "extraction_Raid",
+              "label": "Extraction Raid",
+              "step": [6],
+              "type": "Corporation"
+        },
+        {
+              "id": "recon",
+              "label": "Recon",
+              "step": [7],
+              "type": "Corporation"
+        },
+        {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [8],
+              "type": "Corporation"
+        },
+        {
+              "id": "security_Duty",
+              "label": "Security Duty",
+              "step": [9],
+              "type": "Corporation"
+        },
+        {
+              "id": "garrison",
+              "label": "Garrison",
+              "step": [10],
+              "type": "Corporation"
+        },
+        {
+              "id": "cadre_Duty",
+              "label": "Cadre Duty",
+              "step": [11],
+              "type": "Corporation"
+        },
+        {
+              "id": "special",
+              "label": "Special",
+              "step": [12],
+              "type": "Corporation"
+        }
+      ],
+      "Special":[
+        {
+              "id": "covert",
+              "label": "Covert",
+              "step": [2],
+              "type": "Special"
+        },
+        {
+              "id": "Guerrilla",
+              "label": "Guerrilla",
+              "step": [3,4],
+              "type": "Special"
+        },
+        {
+              "id": "recon",
+              "label": "Recon",
+              "step": [5,8],
+              "type": "Special"
+        },
+        {
+              "id": "extraction_Raid",
+              "label": "Extraction Raid",
+              "step": [6],
+              "type": "Special"
+        },
+        {
+              "id": "retainer",
+              "label": "Retainer",
+              "step": [7],
+              "type": "Special"
+        },
+        {
+              "id": "relief_Duty",
+              "label": "Relief Duty",
+              "step": [9],
+              "type": "Special"
+        },
+        {
+              "id": "diversionary_Raid",
+              "label": "Diversionary Raid",
+              "step": [10],
+              "type": "Special"
+        },
+        {
+              "id": "riot_Duty",
+              "label": "Riot Duty",
+              "step": [11],
+              "type": "Special"
+        },
+        {
+              "id": "cadre_Duty",
+              "label": "Cadre Duty",
+              "step": [12],
+              "type": "Special"
+        }
+      ],
+      "Covert":[
+        {
+              "id": "terrorism",
+              "label": "Terrorism",
+              "step": [2],
+              "type": "Covert"
+        },
+        {
+              "id": "assassination",
+              "label": "Assassination",
+              "step": [3,4],
+              "type": "Covert"
+        },
+        {
+              "id": "espionage",
+              "label": "Espionage",
+              "step": [5],
+              "type": "Covert"
+        },
+        {
+              "id": "sabotage",
+              "label": "Sabotage",
+              "step": [6],
+              "type": "Covert"
+        },
+        {
+              "id": "guerrilla",
+              "label": "Guerrilla",
+              "step": [7],
+              "type": "Covert"
+        },
+        {
+              "id": "recon",
+              "label": "Recon",
+              "step": [8],
+              "type": "Covert"
+        },
+        {
+              "id": "diversionary_Raid",
+              "label": "Diversionary Raid",
+              "step": [9],
+              "type": "Covert"
+        },
+        {
+              "id": "observation_Raid",
+              "label": "Observation Raid",
+              "step": [10],
+              "type": "Covert"
+        },
+        {
+              "id": "mole_Hunting",
+              "label": "Mole Hunting",
+              "step": [11],
+              "type": "Covert"
+        },
+        {
+              "id": "security_Duty",
+              "label": "Security Duty",
+              "step": [11],
+              "type": "Covert"
+        }
+      ],
+      "Pirate":[
+            {
+              "id": "recon",
+              "label": "Recon",
+              "step": [2,3,4,5],
+              "type": "Pirate"
+            } ,
+            {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [6,7,8,9,10,11,12],
+              "type": "Pirate"
+            }   
+      ]
+}

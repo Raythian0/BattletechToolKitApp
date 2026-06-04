@@ -1,0 +1,138 @@
+{
+    "hiringHall": [
+        {
+            "id": "questionable_Hall",
+            "label": "Questionable Hall",
+            "description": "Questionable Hall",
+            "Offers": 0,
+            "employers": -2,
+            "missions": -2
+        },
+        {
+            "id": "minor_Hall",
+            "label": "Minor Hall",
+            "description": "Minor Hall",
+            "Offers": 1,
+            "employers": 0,
+            "missions": 0
+        },
+        {
+            "id": "standard_Hall",
+            "label": "Standard Hall",
+            "description": "Standard Hall",
+            "Offers": 2,
+            "employers": 1,
+            "missions": 1
+        },
+        {
+            "id": "great_Hall",
+            "label": "Great Hall",
+            "description": "Great Hall",
+            "Offers": 3,
+            "employers": 2,
+            "missions": 2
+        },
+        {
+            "id": "no_Hall",
+            "label": "No Hall",
+            "description": "No Hall",
+            "Offers": -3,
+            "employers": -2,
+            "missions": -2
+        }
+    ],
+    "offersTable" : [
+        {
+            "id": "no_Offers",
+            "label": "No Offers",
+            "step": [0],
+            "offers": 0
+        },
+        {
+            "id": "one_Offer",
+            "label": "One Offer",
+            "step": [1,2],
+            "offers": 1
+        },
+        {
+            "id": "two_Offer",
+            "label": "Two Offer",
+            "step": [3,4,5],
+            "offers": 2
+        },
+        {
+            "id": "three_Offer",
+            "label": "Three Offer",
+            "step": [6,7,8],
+            "offers": 3
+        },
+        {
+            "id": "four_Offer",
+            "label": "Four Offer",
+            "step": [9,10],
+            "offers": 4
+        },
+        {
+            "id": "five_Offer",
+            "label": "Five Offer",
+            "step": [9,10],
+            "offers": 5
+        },
+        {
+            "id": "six_Offer",
+            "label": "Six Offer",
+            "step": [13],
+            "offers": 6
+        }
+
+    ],
+    "employers":[
+       {
+            "id": "independent",
+            "label": "Independent Worlds or Small State",
+            "step": [2,3,4,5]
+        },
+        {
+            "id": "minor_Power",
+            "label": "Minor Power",
+            "step": [6,7]
+        },
+        {
+            "id": "major_Power",
+            "label": "Major Power",
+            "step": [8,9,10,11,12]
+        } 
+    ],
+    "independentEmployers":[
+       {
+            "id": "noble",
+            "label": "Noble",
+            "step": [2,3]
+        },
+        {
+            "id": "planetary_Government",
+            "label": "Planetary Government",
+            "step": [4,5]
+        },
+        {
+            "id": "mercenary",
+            "label": "Mercenary",
+            "step": [6]
+        },
+        {
+            "id": "major_Periphery_State",
+            "label": "Major Periphery State",
+            "step": [7,8]
+        },
+        {
+            "id": "minor_Periphery_State",
+            "label": "Minor Periphery State",
+            "step": [9,10]
+        },
+        {
+            "id": "corporation",
+            "label": "Corporation",
+            "step": [11,12]
+        }
+    ]
+}
