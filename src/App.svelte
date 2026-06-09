@@ -10,20 +10,22 @@
   }
 
   import { generateContracts } from "./lib/generator/generateContracts";
+  import { campaignFocus } from "./lib/stores/contractStore";
 
   let scale = $state(1);
   let companyName = $state("Unknown Company");
   let maxContracts = $state(6);
   let hiringHall = $state("standard_Hall");
-  let campaignFocus = $state("general_Operations");
+  let campaignFocusList =  $state("general_Operations");
   let employerType = $state("Major Power");
-
+  
   let contracts = $state(generateContracts());
 
   let activeContractId = $state<string | null>(null);
 
   function regenerate() {
-
+    campaignFocus.set(campaignFocusList);
+    
     contracts = generateContracts(scale, companyName, employerType, maxContracts, hiringHall);
     activeContractId = contracts.length > 0 ? contracts[0].id : null;
     
@@ -88,9 +90,9 @@
 
         <label>
           Campaign
-          <select bind:value={campaignFocus}>
+          <select bind:value={campaignFocusList}>
             <option value="general_Operations">General Operations</option>
-            <option value="mercenaries" disabled>Mercenaries</option>
+            <option value="mercenaries" >Mercenaries</option>
             <option value="hinterlands" disabled>Hinterlands</option>
             <option value="draconisReach" disabled>Draconis Reach</option>
           </select>

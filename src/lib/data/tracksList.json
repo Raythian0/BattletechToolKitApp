@@ -13,7 +13,8 @@
             "secondaryObjDef": "",
             "Notes": "",
             "stepMod": 0,
-            "trackCategory": [""]
+            "trackCategory": [""],
+            "cFocus":[""]
         },
         {
             "trackKey": "standup_Fight_TW",
@@ -27,7 +28,8 @@
             "secondaryObjDef": "",
             "Notes": "Inspired by Total Warfare book",
             "stepMod": 0,
-            "trackCategory": ["Meeting Engagement"]
+            "trackCategory": ["Meeting Engagement"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "hide_and_seek_TW",
@@ -41,7 +43,8 @@
             "secondaryObjDef": "",
             "Notes": "Inspired by Total Warfare book",
             "stepMod": 0,
-            "trackCategory": ["Meeting Engagement","Defend"]
+            "trackCategory": ["Meeting Engagement","Defend"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "extraction_TW",
@@ -55,7 +58,8 @@
             "secondaryObjDef": "Destroy/Cripple at Least 50 percent of the Attacker's force",
             "Notes": "Inspired by Total Warfare book",
             "stepMod": 0,
-            "trackCategory": ["Objective Raid","Defend"]
+            "trackCategory": ["Objective Raid","Defend"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "breakthrough_TW",
@@ -69,7 +73,8 @@
             "secondaryObjDef": "Destroy/Cripple at Least 50 percent of the Attacker's force",
             "Notes": "Inspired by Total Warfare book",
             "stepMod": 0,
-            "trackCategory": ["Breakthrough","Defend","Pursuit"]
+            "trackCategory": ["Breakthrough","Defend","Pursuit"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "chase_TW",
@@ -83,7 +88,8 @@
             "secondaryObjDef": "Destroy/Cripple at Least 50 percent of the Attacker's force",
             "Notes": "Inspired by Total Warfare book",
             "stepMod": 0,
-            "trackCategory": ["Pursuit","Reteat"]
+            "trackCategory": ["Pursuit","Reteat"],
+            "cFocus":["general_Operations"]
         },
         {       
             "trackKey": "defend_M",
@@ -97,7 +103,8 @@
             "secondaryObjDef": "At the end of Turn 8, have at least 50 percent of the Defender's unit survive and be within 4 hexes of the center line of the battlefield",
             "Notes": "See Mercenaries booklet for Full details",
             "stepMod": 0,
-            "trackCategory": ["Defend","Strike"]
+            "trackCategory": ["Defend","Strike"],
+            "cFocus":["general_Operations","mercenaries"]
         },
         {
             "trackKey": "meeting_Engagement_M",
@@ -111,7 +118,8 @@
             "secondaryObjDef": "",
             "Notes": "See Mercenaries booklet for Full details",
             "stepMod": 0,
-            "trackCategory": ["Meeting Engagement"]
+            "trackCategory": ["Meeting Engagement"],
+            "cFocus":["general_Operations","mercenaries"]
         },
         {
             "trackKey": "strike_M",
@@ -125,7 +133,8 @@
             "secondaryObjDef": "Destroy/ Cripple at least 50 percent of the opponent's force.",
             "Notes": "See Mercenaries booklet for Full details",
             "stepMod": 0,
-            "trackCategory": ["Strike","Recon"]
+            "trackCategory": ["Strike","Recon"],
+            "cFocus":["general_Operations","mercenaries"]
         },
         {
             "trackKey": "objective_Raid_M",
@@ -139,7 +148,8 @@
             "secondaryObjDef": "",
             "Notes": "Inpired by Mercenaries book, can alternatively us the full Track details. Advised to use loading rules.",
             "stepMod": 0,
-            "trackCategory": ["Objective Raid"]
+            "trackCategory": ["Objective Raid"],
+            "cFocus":["general_Operations","mercenaries"]
         },
         {
             "trackKey": "probe_CO",
@@ -153,7 +163,8 @@
             "secondaryObjDef": "Destroy/Cripple at Least 50 percent of the Attacker's force",
             "Notes": "Mission inspired by Campaign Operations book",
             "stepMod": 0,
-            "trackCategory": ["Recon"]
+            "trackCategory": ["Recon"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "recon_Raid_CO",
@@ -167,7 +178,8 @@
             "secondaryObjDef": "",
             "Notes": "Mission inspired by Campaign Operations book",
             "stepMod": 0,
-            "trackCategory": ["Recon","Defend"]
+            "trackCategory": ["Recon","Defend"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "base_Attack_CO",
@@ -181,7 +193,8 @@
             "secondaryObjDef": "No more than 3 structures destroyed",
             "Notes": "Mission inspired by Campaign Operations book",
             "stepMod": 0,
-            "trackCategory": ["Defend","Strike"]
+            "trackCategory": ["Defend","Strike"],
+            "cFocus":["general_Operations"]
         },
         {
             "trackKey": "assassinate_CS",
@@ -195,7 +208,8 @@
             "secondaryObjDef": "Destroy/Cripple Attacker's Commander/Unit with highest BV",
             "Notes": "Mission Inspired by Comstar blog",
             "stepMod": 0,
-            "trackCategory": ["Assassination"]
+            "trackCategory": ["Assassination"],
+            "cFocus":["general_Operations"]
         }
     ]
 }

@@ -9,7 +9,8 @@
     "Transport Modifier": -3,
     "Track Modifier": [-2, 1],
     "Track Category": ["Assassination","Recon","Strike"],
-    "attk_Def_Mod": 3
+    "attk_Def_Mod": 3,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Cadre Duty",
@@ -21,7 +22,8 @@
     "Transport Modifier": 0,
     "Track Modifier": [-2, 0],
     "Track Category": ["Defend","Strike","Meeting Engagement"],
-    "attk_Def_Mod": -1
+    "attk_Def_Mod": -1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Diversionary Raid",
@@ -33,7 +35,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [0, 0],
     "Track Category": ["Objective Raid","Recon", "Strike"],
-    "attk_Def_Mod": 1
+    "attk_Def_Mod": 1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Espionage",
@@ -45,7 +48,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [1, 0],
     "Track Category": ["Strike", "Recon","Objective Raid", "Pursuit"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Extraction Raid",
@@ -57,7 +61,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [1, 0],
     "Track Category": ["Objective Raid","Strike","Assault"],
-    "attk_Def_Mod": 1
+    "attk_Def_Mod": 1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Garrison",
@@ -69,7 +74,8 @@
     "Transport Modifier": 0,
     "Track Modifier": [-1, 0],
     "Track Category": ["Defend","Meeting Engagement", "Pushback"],
-    "attk_Def_Mod": -3
+    "attk_Def_Mod": -3,
+    "cFocus":["general_Operations","mercenaries"]
   },
   {
     "Mission Type": "Guerrilla",
@@ -81,7 +87,8 @@
     "Transport Modifier": -1,
     "Track Modifier": [-1, 0],
     "Track Category": ["Strike","Breakthrough", "Recon"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Mole Hunting",
@@ -93,7 +100,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [2, 0],
     "Track Category": ["Recon","Strike","Meeting Engagement"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Objective Raid",
@@ -105,7 +113,8 @@
     "Transport Modifier": 2,
     "Track Modifier": [0, 0],
     "Track Category": ["Objective Raid","Recon","Breakthrough"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations","mercenaries"]
   },
   {
     "Mission Type": "Observation Raid",
@@ -117,7 +126,8 @@
     "Transport Modifier": -1,
     "Track Modifier": [-1, 0],
     "Track Category": ["Objective Raid","Recon","Retreat"],
-    "attk_Def_Mod": 1
+    "attk_Def_Mod": 1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Pirate Hunting",
@@ -129,7 +139,8 @@
     "Transport Modifier": -1,
     "Track Modifier": [-2, 1],
     "Track Category": ["Objective Raid","Recon","Meeting Engagement"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Planetary Assault",
@@ -141,7 +152,8 @@
     "Transport Modifier": 3,
     "Track Modifier": [2, 0],
     "Track Category": ["Assault","Breakthrough","Meeting Engagement","Strike"],
-    "attk_Def_Mod": 0
+    "attk_Def_Mod": 0,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Recon",
@@ -153,7 +165,8 @@
     "Transport Modifier": -1,
     "Track Modifier": [0, 0],
     "Track Category": ["Recon","Strike","Retreat"],
-    "attk_Def_Mod": 1
+    "attk_Def_Mod": 1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Relief Duty",
@@ -165,7 +178,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [1, 0],
     "Track Category": ["Defend","Breakthrough","Pushback"],
-    "attk_Def_Mod": -1
+    "attk_Def_Mod": -1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Retainer",
@@ -177,7 +191,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [1, 0],
     "Track Category": ["Defend","Meeting Engagement"],
-    "attk_Def_Mod": 0
+    "attk_Def_Mod": 0,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Riot Duty",
@@ -189,7 +204,8 @@
     "Transport Modifier": 0,
     "Track Modifier": [0, 0],
     "Track Category": ["Pushback","Pursuit","Strike"],
-    "attk_Def_Mod": -2
+    "attk_Def_Mod": -2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Sabotage",
@@ -201,7 +217,8 @@
     "Transport Modifier": -2,
     "Track Modifier": [-1, 0],
     "Track Category": ["Objective Raid","Strike","Recon"],
-    "attk_Def_Mod": 1
+    "attk_Def_Mod": 1,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Security Duty",
@@ -213,7 +230,8 @@
     "Transport Modifier": 1,
     "Track Modifier": [0, 0],
     "Track Category": ["Defend","Pursuit", "Flank"],
-    "attk_Def_Mod": -2
+    "attk_Def_Mod": -2,
+    "cFocus":["general_Operations"]
   },
   {
     "Mission Type": "Terrorism",
@@ -225,6 +243,7 @@
     "Transport Modifier": -3,
     "Track Modifier": [1, 0],
     "Track Category": ["Strike","Assault","Breakthrough","Objective Raid"],
-    "attk_Def_Mod": 2
+    "attk_Def_Mod": 2,
+    "cFocus":["general_Operations"]
   }
 ]
