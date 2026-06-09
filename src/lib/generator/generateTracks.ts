@@ -1,5 +1,7 @@
 import tracksListData from "../data/tracksList.json";
 import missionData from "../data/mission_types.json"
+import { campaignFocus } from "../stores/contractStore";
+import { get } from "svelte/store";
 
 type Track = {
   trackKey: string;
@@ -14,6 +16,7 @@ type Track = {
   Notes: string;
   stepMod: number;
   trackCategory: string[];
+  cFocus: string[];
 };
 
 
@@ -42,8 +45,13 @@ function hasSharedValue(
 function getTrackCount(missionType: string): number {
 
   let trackRoll = 0;
-
-  for (const missionListItem of missionData)
+  if(get(campaignFocus) == "mercenaries")
+  {
+      trackRoll = randomInt(2,3);
+  }
+  else
+  {
+    for (const missionListItem of missionData)
     {
         if(missionListItem["Mission Type"].includes(missionType))
         {
@@ -59,7 +67,7 @@ function getTrackCount(missionType: string): number {
             trackRoll = clamp(trackRoll, minTrack, maxTrack);
         }
     }
-
+  }
     //console.log("Track Count on Mission "+missionType+":"+trackRoll);
     
   return trackRoll;
@@ -90,11 +98,15 @@ export function generateTracks(
     hasSharedValue(track.trackCategory, missionCategories)
   );
 
-  if (availableTracks.length === 0) {
+  const availableTracksFocus = availableTracks.filter((track) =>
+    track.cFocus.includes(get(campaignFocus))
+  );
+
+  if (availableTracksFocus.length === 0) {
     return [];
   }
 
   return Array.from({ length: trackCount }, () =>
-    randomPick(availableTracks)
+    randomPick(availableTracksFocus)
   );
 }

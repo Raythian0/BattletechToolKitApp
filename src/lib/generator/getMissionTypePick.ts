@@ -1,3 +1,5 @@
+import { get } from "svelte/store";
+import { campaignFocus } from "../stores/contractStore";
 import missionTableData from "../data/mission_table.json"
 
 
@@ -9,7 +11,7 @@ function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(value, max));
 }
 
-export function getMissionTypePick(hHMissionsMod: number = 1, employer: string = "minor_Power"): [string, string]
+export function getMissionTypePick(hHMissionsMod: number = 1, employer: string = "minor_Power"): [string, string, string]
 {
     //data variables
     const employerList = missionTableData.employers;
@@ -19,6 +21,7 @@ export function getMissionTypePick(hHMissionsMod: number = 1, employer: string =
     const specialMissionList = missionTableData.Special;
     const covertMissionList = missionTableData.Covert;
     const pirateMissionList = missionTableData.Pirate;
+    const mercenaryMissionList = missionTableData.Mercenary;
 
     //results variables
     let missionListId = "inner_sphere_clan";
@@ -26,18 +29,24 @@ export function getMissionTypePick(hHMissionsMod: number = 1, employer: string =
     let missionListResultLabel = "";
     let extraMissionLists = ["covert","special","pirate"]
 
+    let finalMissionResultId = "objective_Raid_M";
     let finalMissionResult = "Objective Raid";
     let finalSpecialResult = "";
     let specialListResultLabel = "";
 
-
-    for (const employerListItem of employerList)
+    if(get(campaignFocus)=="mercenaries")
     {
-        if(employerListItem.employerList.includes(employer))
+        missionListId = "Mercenaries";
+    }
+    else{
+        for (const employerListItem of employerList)
         {
-            missionListId = employerListItem.id;
-        }
-    }   
+            if(employerListItem.employerList.includes(employer))
+            {
+                missionListId = employerListItem.id;
+            }
+        }   
+    }
 
     let missionListRoll = randomIntFromInterval(2, 12) + hHMissionsMod;
     missionListRoll = clamp(missionListRoll, 2, 12)
@@ -77,13 +86,26 @@ export function getMissionTypePick(hHMissionsMod: number = 1, employer: string =
             } 
             break;
         }
+        case "Mercenaries":{
+            for (const mercenaryMissionListItem of mercenaryMissionList)
+            {
+                if(mercenaryMissionListItem.step.includes(missionListRoll))
+                {
+                    missionListResultId = mercenaryMissionListItem.id;
+                    missionListResultLabel = mercenaryMissionListItem.label;
+                }
+            } 
+            break;
+        }
+
 
     }
 
     if(!extraMissionLists.includes(missionListResultId))
     {
-         finalMissionResult = missionListResultLabel;
-         return [finalMissionResult,""]
+        finalMissionResultId = missionListResultId;
+        finalMissionResult = missionListResultLabel;
+        return [finalMissionResult,"", finalMissionResultId]
     }
 
     let specialMissionListRoll = randomIntFromInterval(2, 12) + hHMissionsMod;
@@ -147,6 +169,7 @@ export function getMissionTypePick(hHMissionsMod: number = 1, employer: string =
         }
     }
 
+    finalMissionResultId = missionListResultId;
     finalMissionResult = missionListResultLabel;
-    return [finalMissionResult,specialListResultLabel]
+    return [finalMissionResult,specialListResultLabel, finalMissionResultId]
 }

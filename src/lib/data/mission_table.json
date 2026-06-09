@@ -336,5 +336,19 @@
               "step": [6,7,8,9,10,11,12],
               "type": "Pirate"
             }   
+      ],
+      "Mercenary":[
+            {
+              "id": "garrison",
+              "label": "Garrison",
+              "step": [2,3,4,5,6,7],
+              "type": "Mercenary"
+            } ,
+            {
+              "id": "objective_Raid",
+              "label": "Objective Raid",
+              "step": [8,9,10,11,12],
+              "type": "Mercenary"
+            } 
       ]
 }
