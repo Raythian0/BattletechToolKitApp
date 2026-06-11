@@ -135,7 +135,7 @@
         <h2>No Contracts Available</h2>
         <p>No suitable contracts are currently available.</p>
       </section>
-    {:else}
+      {:else}
       <section class="tabs">
         <div class="tab-buttons">
           {#each contracts as contract, index}
@@ -209,18 +209,36 @@
                       <td>{contract.terms.transportationRights.label}<br />
                       Final Cost: {(300 *scale) - ((300 * scale) * contract.terms.transportationRights.scaledValue/100)} SP</td>
                     </tr>
-                    
+                    {#if campaignFocusList == 'general_Operations'}
                     <tr>
                         <td style="background-color: #e8e8e8;"><strong>Mission Tempo</strong></td>
                         <td>{contract.terms.tempoMultiplier}</td>
-                        <td style="background-color: #e8e8e8;"><strong>Combat Pay</strong></td>
+                        <td style="background-color: #e8e8e8;"><strong>Base Combat Pay</strong></td>
                         <td>{((500 * scale) * contract.terms.basePay.scaledValue / 100) * contract.terms.tempoMultiplier} SP</td>
                     </tr>
+                    <tr>
+                        <td style="background-color: #e8e8e8;"><strong>Max Combat Pay</strong></td>
+                        <td>{(((500 * scale) * contract.terms.basePay.scaledValue / 100) * contract.terms.tempoMultiplier)*1.5} SP</td>
+                        <td style="background-color: #e8e8e8;"><strong>Min Combat Pay</strong></td>
+                        <td>{(((500 * scale) * contract.terms.basePay.scaledValue / 100) * contract.terms.tempoMultiplier)*0.5} SP</td>
+                    </tr>
+                    {:else}
+                    <tr>
+                        <td style="background-color: #e8e8e8;"><strong>Base Combat Pay</strong></td>
+                        <td>500</td>
+                        <td style="background-color: #e8e8e8;"><strong>Max Combat Pay</strong></td>
+                        <td>750</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #e8e8e8;"><strong>Min Combat Pay</strong></td>
+                        <td>250</td>
+                    </tr>
+                    {/if}
                 </tbody>
               </table>
 
               <p></p>
-
+              {#if campaignFocusList == 'general_Operations'}
               <table>
                 <tbody>
                   <tr>
@@ -234,6 +252,7 @@
                     </tr>
                 </tbody>
               </table>
+              {/if}
 
               {#if contract.tracks && contract.tracks.length > 0}
                 <section class="tracks-section">
