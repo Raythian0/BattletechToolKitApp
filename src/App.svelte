@@ -63,7 +63,7 @@
     <p>
       User selects the following:
       <br>Company Name -> Has no effect on Generator
-      <br>Campaign -> Focus the rules used in the Generator
+      <br>Campaign -> Focus the rules set used in the Generator
       <br>Hiring Hall -> Effects number of offers/contracts, Employers and Missions Type
       <br>Scale -> Determines payout base before multiplier
       <br>With the above the contracts will generated the rest of the contracts information.
@@ -225,13 +225,13 @@
                     {:else}
                     <tr>
                         <td style="background-color: #e8e8e8;"><strong>Base Combat Pay</strong></td>
-                        <td>500</td>
+                        <td>{(500 * scale)} SP</td>
                         <td style="background-color: #e8e8e8;"><strong>Max Combat Pay</strong></td>
-                        <td>750</td>
+                        <td>{(500 * scale) * 1.5} SP</td>
                     </tr>
                     <tr>
                         <td style="background-color: #e8e8e8;"><strong>Min Combat Pay</strong></td>
-                        <td>250</td>
+                        <td>{(500 * scale) * 0.5} SP</td>
                     </tr>
                     {/if}
                 </tbody>
